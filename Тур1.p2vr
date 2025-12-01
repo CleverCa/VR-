@@ -88,61 +88,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>406.38</pan>
-            <tilt>0</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <customprops/>
-          <polygon/>
-          <id>Point01</id>
-          <title>$(ut)</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node10}</url>
-          <target>$fwd</target>
-          <type>point</type>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-321.14</pan>
-            <tilt>-0.45</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <customprops/>
-          <polygon/>
-          <id>Point02</id>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node11}</url>
-          <target>$fwd</target>
-          <type>point</type>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>373.312</pan>
-            <tilt>0</tilt>
+            <pan>39.57</pan>
+            <tilt>0.99</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -153,14 +100,15 @@
           <customprops/>
           <polygon/>
           <id>Point03</id>
-          <title>$(ut)</title>
-          <linktype>url</linktype>
+          <title>коворкинг</title>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
           <target>$fwd</target>
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -184,6 +132,26 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <target>$fwd</target>
+          <type>poly</type>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon>
+            <polystring>-120.65/37.39|-153.98/28.31|-153.52/-18.46|-119.27/-23.33</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <id>Poly02</id>
+          <title>Дверь в коридор</title>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
           <type>poly</type>
         </hotspot>
       </hotspots>
@@ -286,8 +254,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-159.47</pan>
-            <tilt>-1.98</tilt>
+            <pan>-159.02</pan>
+            <tilt>0.08</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -298,6 +266,7 @@
           <customprops/>
           <polygon/>
           <id>Point01</id>
+          <title>автомат с едой</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node10}</url>
@@ -312,8 +281,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>0.35</pan>
-            <tilt>-3.76</tilt>
+            <pan>-347.76</pan>
+            <tilt>1.13</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -324,6 +293,7 @@
           <customprops/>
           <polygon/>
           <id>Point02</id>
+          <title>коридор</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node12}</url>
@@ -332,11 +302,34 @@
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
-          <customimage>Cover2.JPG</customimage>
-          <urlsafecustomimage>Cover2.jpg</urlsafecustomimage>
           <use3d>0</use3d>
-          <width>5376</width>
-          <height>2688</height>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-19.93</pan>
+            <tilt>3.08</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point03</id>
+          <title>умирающий студент</title>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
         </hotspot>
       </hotspots>
       <output/>
@@ -344,7 +337,7 @@
       <streetviewproject/>
       <ggloudproject/>
       <sounds/>
-      <id>node11</id>
+      <id>node14</id>
     </panorama>
     <panorama>
       <projectsettings>
@@ -386,34 +379,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-207.77</pan>
-            <tilt>-6.99</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <customprops/>
-          <polygon/>
-          <id>Point01</id>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node11}</url>
-          <target>$bwd</target>
-          <type>point</type>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-47.9</pan>
-            <tilt>2.4</tilt>
+            <pan>-47.18</pan>
+            <tilt>4.77</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -424,10 +391,39 @@
           <customprops/>
           <polygon/>
           <id>Point02</id>
-          <linktype>node</linktype>
-          <linksubtype>videofile</linksubtype>
-          <url>{node13}</url>
+          <title>коридор к ректору</title>
+          <linktype>video</linktype>
+          <linksubtype>videourl</linksubtype>
+          <url>https://youtu.be/iDa3IdSgNzQ?si=afjAO-uFlPPPxW-P</url>
+          <safeurl>Hallway.mp4</safeurl>
           <target>$fwd</target>
+          <type>point</type>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-207.13</pan>
+            <tilt>-1.27</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <customprops/>
+          <polygon/>
+          <id>Point01</id>
+          <title>коворкинг</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
+          <target>$bwd</target>
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
@@ -443,102 +439,6 @@
       <ggloudproject/>
       <sounds/>
       <id>node12</id>
-    </panorama>
-    <panorama>
-      <projectsettings>
-        <userdata>
-          <customprops/>
-        </userdata>
-        <mapgrid>
-          <anchor/>
-        </mapgrid>
-        <floorplangrid>
-          <anchor/>
-        </floorplangrid>
-      </projectsettings>
-      <input>
-        <patch/>
-        <type>equirectangular</type>
-        <filename>Videos/R0010997-04.tif</filename>
-        <videofile>Videos/R0010997.MP4</videofile>
-        <urlsafevideofile>R0010997.MP4</urlsafevideofile>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan>
-          <start>0</start>
-          <min>0</min>
-          <max>360</max>
-        </pan>
-        <tilt>
-          <start>90</start>
-          <min>-90</min>
-          <max>90</max>
-        </tilt>
-        <fov>
-          <start>100</start>
-          <minunit>degrees</minunit>
-          <max>360</max>
-          <maxfovstereographic>330</maxfovstereographic>
-          <maxfovfisheye>360</maxfovfisheye>
-          <minpixels>10</minpixels>
-          <min>45</min>
-        </fov>
-        <flyinstart>
-          <pan>0</pan>
-          <tilt>90</tilt>
-          <fov>180</fov>
-        </flyinstart>
-        <pannorth>0</pannorth>
-        <scaletofit>1</scaletofit>
-        <projection>rectilinear</projection>
-        <flyinprojection>rectilinear</flyinprojection>
-        <defaultviewtimestamp>2025-11-30T23:24:23</defaultviewtimestamp>
-      </viewingparameter>
-      <userdata>
-        <customprops/>
-        <capturedatetime>2025-11-30T23:09:38</capturedatetime>
-        <tags>Videos</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position>
-            <pan>-297.03</pan>
-            <tilt>70.75</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <customprops/>
-          <polygon/>
-          <id>Point01</id>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node12}</url>
-          <target>$bwd</target>
-          <type>point</type>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <customimage>Cover3.JPG</customimage>
-          <urlsafecustomimage>Cover3.jpg</urlsafecustomimage>
-          <use3d>0</use3d>
-          <width>5376</width>
-          <height>2688</height>
-        </hotspot>
-      </hotspots>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <ggloudproject/>
-      <sounds/>
-      <id>node13</id>
     </panorama>
   </tour>
   <panorama>
@@ -558,6 +458,7 @@
     <projectsettings>
       <userdata>
         <customprops/>
+        <description>коридор</description>
       </userdata>
       <mapgrid>
         <anchor/>
@@ -565,6 +466,12 @@
       <floorplangrid>
         <anchor/>
       </floorplangrid>
+      <usenodealtitude>0</usenodealtitude>
+      <language>ru-RU</language>
+      <translatehotspotmedia>1</translatehotspotmedia>
+      <translatepinnedmedia>1</translatepinnedmedia>
+      <translationspath>translations</translationspath>
+      <fovmode>diagonal</fovmode>
       <translationsavailable>
         <value id="Проект">ru-RU</value>
       </translationsavailable>
@@ -592,9 +499,16 @@
       </animation>
       <htmlcss>
         <html>
-          <values/>
           <enabled>1</enabled>
-          <filename>output/index_1.html</filename>
+          <filename>../index_1.html</filename>
+          <values>
+            <value id="cachebust">true</value>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">true</value>
+          </values>
         </html>
         <facequality/>
         <transition>
@@ -604,13 +518,28 @@
         </transition>
         <autorotate/>
         <soundstransition/>
-        <flyintransition/>
+        <flyintransition>
+          <enabled>1</enabled>
+        </flyintransition>
         <hotspottext/>
         <hotspotstyle/>
-        <webvr/>
+        <webvr>
+          <enabled>1</enabled>
+        </webvr>
         <tilesize>1344</tilesize>
-        <filename>output/pano.xml</filename>
+        <filename>../pano.xml</filename>
+        <skinfile>карта.ggsk</skinfile>
       </htmlcss>
+      <thumb>
+        <html>
+          <enabled>0</enabled>
+          <filename>output-1/index.html</filename>
+        </html>
+        <facequality/>
+        <type>rectilinear</type>
+        <filename>output-1/pano.png</filename>
+      </thumb>
+      <placeidcache>{"entries":[]}</placeidcache>
     </output>
     <streetview/>
     <streetviewproject/>
