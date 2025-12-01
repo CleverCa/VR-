@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="7.1.11" apprev="21010" start="node10" hassounds="1">
+  <panorama id="node10">
+    <input levelingroll="0.59999999999999998" levelbias="0.400" width="1344" leveltilesize="510" levelingpitch="-7.2999999999999998" levelbiashidpi="1.000" height="1344" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
+      <level predecode="0" width="1344" height="1344" preload="0"/>
+      <level predecode="0" width="672" height="672" preload="0"/>
+      <level predecode="1" width="336" height="336" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="337.5" fovmode="2">
+      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fov="140" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" datetime="17.11.2025 12:22" info="" description="" tags="Photos" longitude="30.295358" author="" customnodeid="" title="" comment="" source="" heading="337.5" nodeid="node10" altitude="23.50" latitude="59.929492"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label bordercolor="0x000000" enabled="1" borderradius="1" width="180" backgroundalpha="1" wordwrap="1" background="1" borderalpha="1" backgroundcolor="0xffffff" height="20" textcolor="0x000000" border="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot url="{node14}" id="Point03" distance="3.42795" target="$fwd" description="" pan="39.57" tilt="0.99" title="коворкинг" skinid="ht_node"/>
+      <polyhotspot url="" id="Poly01" title="коворкинг" target="$fwd" description="">
+        <polystring>-315.31/26.41|-325.96/24.22|-326.52/-11.61|-316.43/-21.54</polystring>
+      </polyhotspot>
+      <polyhotspot url="" id="Poly02" title="Дверь в коридор" target="_blank" description="">
+        <polystring>-120.65/37.39|-153.98/28.31|-153.52/-18.46|-119.27/-23.33</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" enabled="1" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" blendtime="1" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" zoomspeed="2" zoomoutpause="1"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01">
+      <clip nextclipnodeid="node10" cliptitle="Clip01" transitiontype="0" animtitle="Animation01" length="100" animtype="0" nextcliptitle="Clip01" nodeid="" nextclipstartview="0/0/100/4">
+        <keyframe valuestring="" property="0" type="0" value="0" time="0" additionaltrackid="" transitiontime="0"/>
+        <keyframe valuestring="" property="1" type="0" value="0" time="0" additionaltrackid="" transitiontime="0"/>
+        <keyframe valuestring="" property="2" type="0" value="100" time="0" additionaltrackid="" transitiontime="0"/>
+        <keyframe valuestring="" property="3" type="0" value="4" time="0" additionaltrackid="" transitiontime="0"/>
+      </clip>
+    </animation>
+    <control dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" sensitivity="8" contextprojections="0" lockedmouse="0" invertwheel="0" contextvr="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" rubberband="0" simulatemass="1" zoomcentercursor="1"/>
+    <vr skinbuttonposition="0" defaulthsscale="100" toggleskinbutton="1"/>
+  </panorama>
+  <panorama id="node14">
+    <input levelingroll="2" levelbias="0.400" width="1344" leveltilesize="510" levelingpitch="-1.8" levelbiashidpi="1.000" height="1344" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
+      <level predecode="0" width="1344" height="1344" preload="0"/>
+      <level predecode="0" width="672" height="672" preload="0"/>
+      <level predecode="1" width="336" height="336" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fov="140" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" datetime="17.11.2025 12:25" info="" description="" tags="Photos" longitude="30.295322" author="" customnodeid="" title="" comment="" source="" heading="0" nodeid="node14" altitude="26.40" latitude="59.929517"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label bordercolor="0x000000" enabled="1" borderradius="1" width="180" backgroundalpha="1" wordwrap="1" background="1" borderalpha="1" backgroundcolor="0xffffff" height="20" textcolor="0x000000" border="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot url="{node10}" id="Point01" distance="3.42795" target="$bwd" description="" pan="-159.02" tilt="0.08" title="автомат с едой" skinid="ht_node"/>
+      <hotspot url="{node12}" id="Point02" distance="6.65346" target="$fwd" description="" pan="-347.76" tilt="1.13" title="коридор" skinid="ht_node"/>
+      <hotspot url="" tilt="3.08" id="Point03" title="умирающий студент" skinid="ht_info" target="" description="" pan="-19.93"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" enabled="1" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" blendtime="1" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" zoomspeed="2" zoomoutpause="1"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" sensitivity="8" contextprojections="0" lockedmouse="0" invertwheel="0" contextvr="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" rubberband="0" simulatemass="1" zoomcentercursor="1"/>
+    <vr skinbuttonposition="0" defaulthsscale="100" toggleskinbutton="1"/>
+  </panorama>
+  <panorama id="node12">
+    <input levelingroll="2" levelbias="0.400" width="1344" leveltilesize="510" levelingpitch="-2.2000000000000002" levelbiashidpi="1.000" height="1344" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
+      <level predecode="0" width="1344" height="1344" preload="0"/>
+      <level predecode="0" width="672" height="672" preload="0"/>
+      <level predecode="1" width="336" height="336" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="292.5" fovmode="2">
+      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fov="140" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" datetime="17.11.2025 12:26" info="" description="" tags="Photos" longitude="30.295203" author="" customnodeid="" title="" comment="" source="" heading="292.5" nodeid="node12" altitude="28.00" latitude="59.929522"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label bordercolor="0x000000" enabled="1" borderradius="1" width="180" backgroundalpha="1" wordwrap="1" background="1" borderalpha="1" backgroundcolor="0xffffff" height="20" textcolor="0x000000" border="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098"/>
+      <hotspot url="media/Hallway.mp4" tilt="4.77" id="Point02" title="коридор к ректору" skinid="ht_video_file" target="$fwd" description="" pan="-47.18"/>
+      <hotspot url="{node14}" id="Point01" distance="6.65346" target="$bwd" description="" pan="-207.13" tilt="-1.27" title="коворкинг" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" enabled="1" zoomout="0" type="crossdissolve" zoomafteroutfov="40" delay="none" blendtime="1" softedge="0" blendcolor="0x000000" zoomafterinfov="140" zoomfov="40" zoomspeed="2" zoomoutpause="1"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="0" lockedwheel="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" sensitivity="8" contextprojections="0" lockedmouse="0" invertwheel="0" contextvr="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" rubberband="0" simulatemass="1" zoomcentercursor="1"/>
+    <vr skinbuttonposition="0" defaulthsscale="100" toggleskinbutton="1"/>
+  </panorama>
+  <masternode>
+    <userdata copyright="" author="" title="" comment="" description="коридор" tags=""/>
+    <animationsequences>
+      <sequence title="Animation01">
+        <sequenceelement cliptitle="Clip01" startview="0/0/100/4" nodeid="node10" index="0"/>
+      </sequence>
+    </animationsequences>
+  </masternode>
+</tour>
